@@ -1,0 +1,23 @@
+{
+    "manifest_version": 3,
+    "type": "extension",
+    "name": "重登时使用liteLoader",
+    "slug": "open_liteLoader_when_logging_back_in",
+    "description": "Open LiteLoaderQQNt.exe instead of QQ.exe when logging in again",
+    "version": "0.1.0",
+    "thumbnail": "./default_icon.png",
+    "author": {
+        "name": "Raison-Song",
+        "link": "https://github.com/Raison-Song"
+    },
+    "repository": {
+        "repo": "LiteLoaderQQNT-Plugin-open_liteLoader",
+        "branch": "main"
+    },
+    "platform": [
+        "win32"
+    ],
+    "injects": {
+        "main": "./src/main.js"
+    }
+}
