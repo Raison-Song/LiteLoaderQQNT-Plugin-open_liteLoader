@@ -1,4 +1,4 @@
-#被挤下去后，重新登陆时使用liteLoader启动
+# 被挤下去后，重新登陆时使用liteLoader启动
 
 LiteLoaderQQNT插件。
 
