@@ -17,8 +17,7 @@ function onLoad() {
                 newButton.innerHTML = "重新登陆";
                 newButton.classList.add("q-button", "q-button--primary", "q-button--default", "vue-component");
                 newButton.addEventListener("click", function () {
-                    //此处依靠bug运行
-                    // open_liteLoader_when_logging_back_in.openQQ();
+                    open_liteLoader_when_logging_back_in.openQQ();
                 });
                 button_base.appendChild(newButton);
             }
